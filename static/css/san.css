@@ -1,3 +1,31 @@
 .logo {
     width:120px;
 }
+
+.font-swiper{
+    font-family: 'Audiowide', cursive;
+    font-size:8vw;
+}
+
+.font-slider{
+    font-family: 'Audiowide', cursive;
+    font-size:3.5vmin;
+
+}
+
+.font-color-slide1{
+  color:#2874A6;
+}
+
+
+.font-color-slide2{
+    color:#fff143;
+  }
+
+  .font-color-slide3{
+    color:#ff014a;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
