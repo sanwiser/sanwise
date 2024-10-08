@@ -9,30 +9,43 @@
 }
 
 .font-slider{
-    font-family: 'Audiowide', cursive;
-    font-size:4vmin;
-    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size:2.5vw;
+    color:#000;
 
 }
 
 .font-color-slide1{
   color:#2874A6;
+  font-family: 'Raleway', sans-serif;
   font-weight:bold;
 }
 
 
 .font-color-slide2{
     color:#fff143;
+    font-family: 'Raleway', sans-serif;
     font-weight:bold;
   }
 
   .font-color-slide3{
     color:#ff014a;
+    font-family: 'Raleway', sans-serif;
     font-weight:bold;
   }
 
   .nav-link{
     text-decoration: none;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 400;
+    font-size: 17px !important;
+    text-shadow: 0.5px 0px 0px #000;
+    color:#000 !important;
+
+  }
+
+  .nav-link:hover{
+    color:blue;
   }
 
   .titleh1{
@@ -43,12 +56,61 @@
     padding-left:60px; 
     margin-left:auto; 
     margin-right:auto; 
-    color: #000000; 
+    color: #000; 
     
   }
 
-  .texttitle1{
+  .titlecard{
     font-family: 'Audiowide', cursive;
+    font-weight:700; 
+    font-size:20px;
+    margin-left:auto; 
+    margin-right:auto; 
+  }
+
+
+  .margins{
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .card-bod{
+    border: #000 1.5px solid;
+    padding:30px;
+    border-radius: 15px;
+  }
+
+  .card-bod1{
+    border: #000 1.5px solid;
+    padding:30px;
+    border-radius: 15px;
+  }
+
+  .card-bod2{
+    border: #000 1.5px solid;
+    padding:30px;
+    border-radius: 15px;
+  }
+
+  .card-bod:hover{
+    background-color: #5e6fff;
+    color:#ffffff;
+  }
+
+  .card-bod1:hover{
+    background-color: #fffa5e;
+    color:#ffffff;
+  }
+
+  .card-bod2:hover{
+    background-color: #ff6d5e;
+    color:#ffffff;
+  }
+
+  .texttitle1{
+    font-family: 'Raleway', sans-serif;
+    color:#000;
   }
 
   .futuretitle{
@@ -62,7 +124,7 @@
 
   .futuretext{
     color:#000; 
-    font-family:'Audiowide', cursive; 
+    font-family: 'Raleway', sans-serif;
     font-weight:100; 
     font-size:30px;
   }
@@ -70,8 +132,53 @@
   .button-conocemas{
     background-color: blue;
     color:#ffffff;
-    font-family:'Audiowide', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size:10px; 
     border-radius: 5px;
+  }
+
+  .button-form{
+    background-color: blue;
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size:10px; 
+    border-radius: 5px;
+  }
+
+  .uk-button.button-form:hover{
+      background-color:#ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size:10px; 
+      border-radius: 5px;
+      color:#000;
+  }
+
+  .form-title{
+    margin-left:auto; 
+    margin-right:auto; 
+    color: #ffffff; 
+    font-family:'Audiowide', cursive; 
+    font-weight:700; 
+    font-size:40px;
+  }
+
+  .texttitleform{
+    color:#ffffff; 
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+  .button-home{
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px;
+  }
+
+  .button-home:hover{
+    background-color:#000;
+    color:#ffffff;
+    text-decoration: none;
+
   }
 
