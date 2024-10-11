@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="Dependencies/uikit/dist/js/uikit.min.js"></script>
     <script src="Dependencies/uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="https://kit.fontawesome.com/a5056f2f37.js" crossorigin="anonymous"></script>
     
    
     <title>Analitica de Datos | Business Intelligence BI</title>
@@ -82,26 +83,26 @@
               <div class="uk-navbar-right uk-visible@s">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active">
-                      <a class="uk-text-capitalize nav-linksanwise" href="/sanwise.html">Sanwise</a>
+                      <a class="uk-text-capitalize nav-linksanwise" href="/sanwise.html"><i class="fa-solid fa-brain"></i> Sanwise</a>
                     </li>
                     
                 </ul>
                
                     <ul class="uk-navbar-nav">
                         <li class="uk-active">
-                         <a class="uk-text-capitalize nav-linksanwise" href="/google_workspace.html"><i class="fa-solid fa-phone"></i> Google WorkSpace</a>
+                         <a class="uk-text-capitalize nav-linksanwise" href="/google_workspace.html"><i class="fa-brands fa-google"></i> Google WorkSpace</a>
                         </li>
                   </ul>
 
                   <ul class="uk-navbar-nav">
                     <li class="uk-active">
-                     <a class="uk-text-capitalize nav-linksanwise" href="/dashboard.html"><i class="fa-solid fa-phone"></i> Data Analytics & BI</a>
+                     <a class="uk-text-capitalize nav-linksanwise" href="/dashboard.html"><i class="fa-solid fa-chart-simple"></i> Data Analytics & BI</a>
                     </li>
               </ul> 
 
                   <ul class="uk-navbar-nav">
                     <li class="uk-active">
-                     <a class="uk-text-capitalize nav-linksanwise" href="/appsheet.html"><i class="fa-solid fa-phone"></i> AppSheet</a>
+                     <a class="uk-text-capitalize nav-linksanwise" href="/appsheet.html"><i class="fa-solid fa-rocket"></i> AppSheet</a>
                     </li>
                  </ul>
                  
@@ -126,34 +127,43 @@
     </div>
     
     <div id="sidenav" uk-offcanvas="overlay: true" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
-        <ul class="uk-nav">
-            <li><a href="/"><img class="logo" src="/static/img/sanwiselogo1.webp" alt="Logo de Sanwise"></a></li>
-        </ul>
-
-        <ul class="uk-nav uk-margin-top-large">
-            <a class="uk-text-capitalize contact-btn-nav" href="/sanwise.html"><i class="fa-solid fa-phone"></i>Sanwise</a> 
-        </ul>
-        
-
-        <ul class="uk-nav uk-margin-top-large">
-            <a class="uk-text-capitalize contact-btn-nav" href="/google_workspace.html"><i class="fa-solid fa-phone"></i>Google WorkSpace</a> 
-        </ul>
-
-        <ul class="uk-nav uk-margin-top-small">
-            <a class="uk-text-capitalize contact-btn-nav" href="/dashboard.html"><i class="fa-solid fa-phone"></i>Data Analytics & BI</a> 
-        </ul>
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav">
+                <li><a href="/"><img class="logooffcanvas" src="/static/img/sanwiselogo1.webp"></a></li>
+            </ul>
     
-        <ul class="uk-nav uk-margin-top-small">
-            <a class="uk-text-capitalize contact-btn-nav" href="/appsheet.html"><i class="fa-solid fa-phone"></i>AppSheet</a> 
-        </ul>
-
-        <footer class="uk-text-left footertextoffcanvas">
-            Sanwise &copy; <script>document.write(new Date().getFullYear());</script> Copyright
-          </footer>
+           
+            <ul class="uk-nav">
+                <h1 class="uk-text-left uk-position-relative uk-vertical uk-margin-small-top" style="width:100%; padding-top:0px; padding-left:0px; font-size:15px; color:#000; margin:0; font-family: 'Audiowide', cursive; font-weight:bold;">Libera tu Potencial</h1>
+                <span id="elementk" class="uk-text-left uk-width-1-1@s uk-width-1-1@m uk-width-1-1@l uk-vertical-align-middle" style="width:100%; padding-left:0px; width:auto; font-size:3.0vw; color:#000; font-family: 'Raleway', sans-serif; text-decoration:none;"></span>
+    
+            </ul>
+                          
+           
+            
+    
+            <ul class="uk-nav uk-margin-small-top">
+                <a class="uk-text-capitalize contact-btn-nav" href="/sanwise.html"><i class="fa-solid fa-brain iconoffcanvas"></i> Sanwise</a> 
+            </ul>
+    
+            <ul class="uk-nav uk-margin-top-large">
+                <a class="uk-text-capitalize contact-btn-nav" href="/google_workspace.html"><i class="fa-brands fa-google iconoffcanvas"></i> Google WorkSpace</a> 
+            </ul>
+    
+            <ul class="uk-nav uk-margin-top-small">
+                <a class="uk-text-capitalize contact-btn-nav" href="/dashboard.html"><i class="fa-solid fa-chart-simple iconoffcanvas"></i> Data Analytics & BI</a> 
+            </ul>
         
-    </div>
-    </div>
+            <ul class="uk-nav uk-margin-top-small">
+                <a class="uk-text-capitalize contact-btn-nav" href="/appsheet.html"><i class="fa-solid fa-rocket iconoffcanvas"></i> AppSheet</a> 
+            </ul>
+    
+            <footer class="uk-text-left footertextoffcanvas">
+                Sanwise &copy; <script>document.write(new Date().getFullYear());</script> Copyright
+              </footer>
+            
+        </div>
+        </div>
     
 </header>
 
@@ -508,6 +518,14 @@
         loop:true
         });
       </script>
+
+<script>
+    var typed = new Typed('#elementk', {
+    strings: ['El Sabio escrutinio de tus datos', 'Eleva el potencial de tu equipo', 'Cambiáte a Google Workspace','Crea Aplicaciones No Code','Optimiza el rendimiento de tu negocio'],
+    typeSpeed: 50,
+    loop:true
+    });
+  </script>
 
    <script>
         var swiper = new Swiper(".swiper", {

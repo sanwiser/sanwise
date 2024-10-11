@@ -79,17 +79,21 @@
   }
 
   .footertextoffcanvas{
-    font-size:12px;
+    font-size:10px;
     margin-top:30px;
+    color:#000;
   }
 
   .uk-offcanvas-bar{
-    background-color: #000;
+    background-color: #5e6fff;
+    border:#000 1.5px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   .contact-btn-nav{
     font-family: 'Raleway', sans-serif;
-    color:#ffffff;
+    color:#000 !important;
     
   }
 
@@ -137,6 +141,14 @@
     margin-left:auto; 
     margin-right:auto;
     color:#000;
+  }
+
+  .iconoffcanvas{
+    font-size:10px;
+  }
+
+  .logooffcanvas{
+    width:80px;
   }
 
 
